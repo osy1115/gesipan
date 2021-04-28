@@ -1,0 +1,18 @@
+{% include './layout/top.html' %}
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>글제목</td>
+                <td>{{list.subject}}</td>
+            </tr>
+            <tr>
+                <td>작성자</td>
+                <td>{{list.board_name}}</td>
+            </tr>
+            <tr>
+                <textarea name="" cols="30" rows="10"></textarea>
+            </tr>
+        </table>
+    </form>
+    {% include './layout/bottom.html' %}
+
